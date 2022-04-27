@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32408.312
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarmac.Shared.Migrator", "Tarmac.Shared.Migrator\Tarmac.Shared.Migrator.csproj", "{4095EF52-DC44-4C18-8AC2-8BA80A2AE268}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tarmac.Shared.DBO", "..\Tarmac.Shared.DBO\Tarmac.Shared.DBO\Tarmac.Shared.DBO.csproj", "{322E2227-6D6D-4E11-A0ED-060FAD2709EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4095EF52-DC44-4C18-8AC2-8BA80A2AE268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4095EF52-DC44-4C18-8AC2-8BA80A2AE268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4095EF52-DC44-4C18-8AC2-8BA80A2AE268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4095EF52-DC44-4C18-8AC2-8BA80A2AE268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322E2227-6D6D-4E11-A0ED-060FAD2709EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322E2227-6D6D-4E11-A0ED-060FAD2709EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322E2227-6D6D-4E11-A0ED-060FAD2709EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322E2227-6D6D-4E11-A0ED-060FAD2709EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {474DAA8F-8FA0-4397-BC53-DF93AC9512F7}
+	EndGlobalSection
+EndGlobal
