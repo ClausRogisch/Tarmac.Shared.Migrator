@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Tarmac.Shared.DBO\Tarmac.Shared.DBO\Tarmac.Shared.DBO.csproj" />
+    <ProjectReference Include="..\..\Tarmac.Shared\Tarmac.Shared\Tarmac.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -11,6 +11,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.Graph": "4.25.0",
           "Newtonsoft.Json": "13.0.1",
+          "Tarmac.Shared": "1.0.0",
           "Tarmac.Shared.DBO": "1.0.0"
         },
         "runtime": {
@@ -555,12 +556,12 @@
           }
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.300-rc.1.5355": {
+      "Microsoft.Maui.Dependencies/6.0.300-rc.2.5513": {
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.300-rc.1.1215"
+          "Microsoft.Maui.Graphics": "6.0.300-rc.2.1310"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.300-rc.1.5355": {
+      "Microsoft.Maui.Extensions/6.0.300-rc.2.5513": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
@@ -568,14 +569,14 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.300-rc.1.1215": {
+      "Microsoft.Maui.Graphics/6.0.300-rc.2.1310": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "6.0.300.29"
+            "fileVersion": "6.0.300.68"
           }
         }
       },
@@ -967,8 +968,8 @@
       },
       "Tarmac.Shared/1.0.0": {
         "dependencies": {
-          "Microsoft.Maui.Dependencies": "6.0.300-rc.1.5355",
-          "Microsoft.Maui.Extensions": "6.0.300-rc.1.5355"
+          "Microsoft.Maui.Dependencies": "6.0.300-rc.2.5513",
+          "Microsoft.Maui.Extensions": "6.0.300-rc.2.5513"
         },
         "runtime": {
           "Tarmac.Shared.dll": {}
@@ -1303,26 +1304,26 @@
       "path": "microsoft.identitymodel.tokens/6.15.1",
       "hashPath": "microsoft.identitymodel.tokens.6.15.1.nupkg.sha512"
     },
-    "Microsoft.Maui.Dependencies/6.0.300-rc.1.5355": {
+    "Microsoft.Maui.Dependencies/6.0.300-rc.2.5513": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1qohklgvYADHxdjjzELkEVHBQ0LDVzZh3K/7oja+iqcoxkDR/RB3w6e/4f//RM2Y0ZpuPPzVAhr0BZyM+7QvjQ==",
-      "path": "microsoft.maui.dependencies/6.0.300-rc.1.5355",
-      "hashPath": "microsoft.maui.dependencies.6.0.300-rc.1.5355.nupkg.sha512"
+      "sha512": "sha512-5xdbpJ0f+ZQ1HWMgcMGV6mYcYEmn8MgGSxIZrGZHw/Q+B42x0KCvcOUWRgC298GH9g3iXEiaoyG5QGxi7xCogg==",
+      "path": "microsoft.maui.dependencies/6.0.300-rc.2.5513",
+      "hashPath": "microsoft.maui.dependencies.6.0.300-rc.2.5513.nupkg.sha512"
     },
-    "Microsoft.Maui.Extensions/6.0.300-rc.1.5355": {
+    "Microsoft.Maui.Extensions/6.0.300-rc.2.5513": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-C6bpRTrP5q6tGNJKEshp02r39cYApnJfMs1HrYyBB4th5NC1fs9eRBWJJs1yATRSbg3NNpeFiinYMRybW2EW1Q==",
-      "path": "microsoft.maui.extensions/6.0.300-rc.1.5355",
-      "hashPath": "microsoft.maui.extensions.6.0.300-rc.1.5355.nupkg.sha512"
+      "sha512": "sha512-+o3xts/+CU+VaeIqluP2sMMc44q+KqBVKGXRyMe8VgTlEe90Vxo6xCHEYZtJa5U1ldqeheTIloRuXD1TVJP1zg==",
+      "path": "microsoft.maui.extensions/6.0.300-rc.2.5513",
+      "hashPath": "microsoft.maui.extensions.6.0.300-rc.2.5513.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/6.0.300-rc.1.1215": {
+    "Microsoft.Maui.Graphics/6.0.300-rc.2.1310": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bcvetkzKpFPRXywDXia48vq50rP5wxayEBNXl3Tn3a6XaPsiigBLCU8zmSLnUJkI4olFdriEXl6egdsn3mN5UQ==",
-      "path": "microsoft.maui.graphics/6.0.300-rc.1.1215",
-      "hashPath": "microsoft.maui.graphics.6.0.300-rc.1.1215.nupkg.sha512"
+      "sha512": "sha512-BAG8TSghi4VOZuRXyLfxndabAmGKzBSOVelshY+cOFstnzNR2W7YLSXgcFo8eOWG2tq12KHkzxXj9rZNg7dfTA==",
+      "path": "microsoft.maui.graphics/6.0.300-rc.2.1310",
+      "hashPath": "microsoft.maui.graphics.6.0.300-rc.2.1310.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -1558,7 +1559,7 @@
     "System.Security.Cryptography.Cng/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "path": "system.security.cryptography.cng/4.5.0",
       "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
     },

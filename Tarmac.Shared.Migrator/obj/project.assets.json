@@ -633,13 +633,13 @@
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
         }
       },
-      "Microsoft.Maui.Dependencies/6.0.300-rc.1.5355": {
+      "Microsoft.Maui.Dependencies/6.0.300-rc.2.5513": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "6.0.300-rc.1.1215"
+          "Microsoft.Maui.Graphics": "6.0.300-rc.2.1310"
         }
       },
-      "Microsoft.Maui.Extensions/6.0.300-rc.1.5355": {
+      "Microsoft.Maui.Extensions/6.0.300-rc.2.5513": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration": "6.0.1",
@@ -648,7 +648,7 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.1"
         }
       },
-      "Microsoft.Maui.Graphics/6.0.300-rc.1.1215": {
+      "Microsoft.Maui.Graphics/6.0.300-rc.2.1310": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -1257,8 +1257,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.Maui.Dependencies": "6.0.300-rc.1.5355",
-          "Microsoft.Maui.Extensions": "6.0.300-rc.1.5355"
+          "Microsoft.Maui.Dependencies": "6.0.300-rc.2.5513",
+          "Microsoft.Maui.Extensions": "6.0.300-rc.2.5513"
         },
         "compile": {
           "bin/placeholder/Tarmac.Shared.dll": {}
@@ -2288,32 +2288,32 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-    "Microsoft.Maui.Dependencies/6.0.300-rc.1.5355": {
-      "sha512": "1qohklgvYADHxdjjzELkEVHBQ0LDVzZh3K/7oja+iqcoxkDR/RB3w6e/4f//RM2Y0ZpuPPzVAhr0BZyM+7QvjQ==",
+    "Microsoft.Maui.Dependencies/6.0.300-rc.2.5513": {
+      "sha512": "5xdbpJ0f+ZQ1HWMgcMGV6mYcYEmn8MgGSxIZrGZHw/Q+B42x0KCvcOUWRgC298GH9g3iXEiaoyG5QGxi7xCogg==",
       "type": "package",
-      "path": "microsoft.maui.dependencies/6.0.300-rc.1.5355",
+      "path": "microsoft.maui.dependencies/6.0.300-rc.2.5513",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.dependencies.6.0.300-rc.1.5355.nupkg.sha512",
+        "microsoft.maui.dependencies.6.0.300-rc.2.5513.nupkg.sha512",
         "microsoft.maui.dependencies.nuspec"
       ]
     },
-    "Microsoft.Maui.Extensions/6.0.300-rc.1.5355": {
-      "sha512": "C6bpRTrP5q6tGNJKEshp02r39cYApnJfMs1HrYyBB4th5NC1fs9eRBWJJs1yATRSbg3NNpeFiinYMRybW2EW1Q==",
+    "Microsoft.Maui.Extensions/6.0.300-rc.2.5513": {
+      "sha512": "+o3xts/+CU+VaeIqluP2sMMc44q+KqBVKGXRyMe8VgTlEe90Vxo6xCHEYZtJa5U1ldqeheTIloRuXD1TVJP1zg==",
       "type": "package",
-      "path": "microsoft.maui.extensions/6.0.300-rc.1.5355",
+      "path": "microsoft.maui.extensions/6.0.300-rc.2.5513",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "microsoft.maui.extensions.6.0.300-rc.1.5355.nupkg.sha512",
+        "microsoft.maui.extensions.6.0.300-rc.2.5513.nupkg.sha512",
         "microsoft.maui.extensions.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/6.0.300-rc.1.1215": {
-      "sha512": "bcvetkzKpFPRXywDXia48vq50rP5wxayEBNXl3Tn3a6XaPsiigBLCU8zmSLnUJkI4olFdriEXl6egdsn3mN5UQ==",
+    "Microsoft.Maui.Graphics/6.0.300-rc.2.1310": {
+      "sha512": "BAG8TSghi4VOZuRXyLfxndabAmGKzBSOVelshY+cOFstnzNR2W7YLSXgcFo8eOWG2tq12KHkzxXj9rZNg7dfTA==",
       "type": "package",
-      "path": "microsoft.maui.graphics/6.0.300-rc.1.1215",
+      "path": "microsoft.maui.graphics/6.0.300-rc.2.1310",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2339,7 +2339,7 @@
         "lib/xamarin.ios10/Microsoft.Maui.Graphics.pdb",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.dll",
         "lib/xamarin.mac20/Microsoft.Maui.Graphics.pdb",
-        "microsoft.maui.graphics.6.0.300-rc.1.1215.nupkg.sha512",
+        "microsoft.maui.graphics.6.0.300-rc.2.1310.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -3690,7 +3690,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -4225,49 +4225,55 @@
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Microsoft.Graph >= 4.25.0",
       "Newtonsoft.Json >= 13.0.1",
+      "Tarmac.Shared >= 1.0.0",
       "Tarmac.Shared.DBO >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Nutzer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
+      "projectUniqueName": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
       "projectName": "Tarmac.Shared.Migrator",
-      "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\obj\\",
+      "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
+      "packagesPath": "C:\\Users\\Nutzer\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nutzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://gitlab.exceeding-solutions.de/api/v4/projects/158/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
-              "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj"
+            "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
+              "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj"
+            },
+            "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
+              "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj"
             }
           }
         }

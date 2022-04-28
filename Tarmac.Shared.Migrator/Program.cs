@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Tarmac.Shared.Models;
+using Tarmac.Shared.Migrator;
 
 static void ConfigureServices(IServiceCollection services)
 {
@@ -67,21 +68,22 @@ public class App
         Console.WriteLine("Migrate Objects");
         _logger.LogInformation("Starting");
         //loadFile
-#if DEBUG
-        var json = File.ReadAllText("J:\\artists.json");
-#else
-var json = File.ReadAllText(args[0]);
-#endif
+
+        var json = File.ReadAllText(args[0]);
+
         var oldArtists = JsonConvert.DeserializeObject<List<OldArtist>>(json);
         var newArtists = new List<Artist>();
-        var stages = _context.Stages.ToList();
+        var stages = await _context.Stages.ToListAsync();
+        var collectives = await _context.Collectives.ToListAsync();
+        var festivals = await _context.Festivals.ToListAsync();
+        
         foreach (var artist in oldArtists)
         {
-
+            Event @event = artist.FromOldArtist(stages,collectives, festivals, int.Parse(args[1]));
+            await _context.Events.AddAsync(@event);
         }
+        await _context.SaveChangesAsync();
 
-        Console.WriteLine(String.Join<OldArtist>(",", oldArtists.ToArray()));
-        //migrate the stuff
         _logger.LogInformation("Finished");
         await Task.CompletedTask;
     }

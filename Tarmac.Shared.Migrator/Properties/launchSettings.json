@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tarmac.Shared.Migrator": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\oldartists.json 2021"
+    }
+  }
+}

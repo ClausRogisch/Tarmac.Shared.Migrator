@@ -1,43 +1,46 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj": {}
+    "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj": {}
   },
   "projects": {
-    "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
+    "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj",
+        "projectUniqueName": "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj",
         "projectName": "Tarmac.Shared.DBO",
-        "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\obj\\",
+        "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj",
+        "packagesPath": "C:\\Users\\Nutzer\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nutzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.exceeding-solutions.de/api/v4/projects/158/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
-                "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj"
+              "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
+                "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj"
               }
             }
           }
@@ -112,40 +115,46 @@
         }
       }
     },
-    "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj": {
+    "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
+        "projectUniqueName": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
         "projectName": "Tarmac.Shared.Migrator",
-        "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\obj\\",
+        "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator.csproj",
+        "packagesPath": "C:\\Users\\Nutzer\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.Migrator\\Tarmac.Shared.Migrator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nutzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.exceeding-solutions.de/api/v4/projects/158/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
-                "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj"
+              "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj": {
+                "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO\\Tarmac.Shared.DBO.csproj"
+              },
+              "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
+                "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj"
               }
             }
           }
@@ -192,26 +201,26 @@
         }
       }
     },
-    "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
+    "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj",
+        "projectUniqueName": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj",
         "projectName": "Tarmac.Shared",
-        "projectPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "J:\\Programmierung\\Projekte\\Tarmac\\Tarmac.Shared\\Tarmac.Shared\\obj\\",
+        "projectPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\Tarmac.Shared.csproj",
+        "packagesPath": "C:\\Users\\Nutzer\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\private\\tarmac\\Tarmac.Shared\\Tarmac.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nutzer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0",
@@ -221,9 +230,12 @@
           "net6.0-windows10.0.19041"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.exceeding-solutions.de/api/v4/projects/158/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -259,12 +271,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             }
           },
@@ -299,12 +311,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             }
           },
@@ -318,6 +330,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Android.Ref.31",
+              "version": "[31.0.101-preview.11.117, 31.0.101-preview.11.117]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -342,12 +360,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
@@ -390,12 +408,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
@@ -439,12 +457,12 @@
           "dependencies": {
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Maui.Extensions": {
               "target": "Package",
-              "version": "[6.0.300-rc.1.5355, )",
+              "version": "[6.0.300-rc.2.5513, )",
               "autoReferenced": true
             },
             "Microsoft.Windows.SDK.BuildTools": {
@@ -466,52 +484,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.19041.24, 10.0.19041.24]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.3, 6.0.3]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[6.0.3, 6.0.3]"
             }
           ],
           "frameworkReferences": {
@@ -532,29 +506,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300-preview.22204.3\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win10-arm": {
-          "#import": []
-        },
-        "win10-arm-aot": {
-          "#import": []
-        },
-        "win10-arm64-aot": {
-          "#import": []
-        },
-        "win10-x64": {
-          "#import": []
-        },
-        "win10-x64-aot": {
-          "#import": []
-        },
-        "win10-x86": {
-          "#import": []
-        },
-        "win10-x86-aot": {
-          "#import": []
         }
       }
     }
