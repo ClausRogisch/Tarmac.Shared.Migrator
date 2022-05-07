@@ -68,7 +68,7 @@ public class App
         Console.WriteLine("Migrate Objects");
         _logger.LogInformation("Starting");
         //loadFile
-
+        
         var json = File.ReadAllText(args[0]);
 
         var oldArtists = JsonConvert.DeserializeObject<List<OldArtist>>(json);

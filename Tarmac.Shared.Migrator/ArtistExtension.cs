@@ -55,17 +55,29 @@ namespace Tarmac.Shared.Migrator
                     linkType = LinkType.Website;
                 }
 
-                Link newLink = new Link()
-                {
-                    LinkType = linkType,
-                    
-                };
                 if (!String.IsNullOrEmpty(link))
                 {
+                    Link newLink = new Link()
+                    {
+                        LinkType = linkType,
+                    
+                    };
                     newLink.Url = new Uri(link);
+                    links.Add(newLink);
                 }
-                links.Add(newLink);
 
+            }
+            List<Image> newImages = new List<Image>();
+            if (!String.IsNullOrEmpty(oldArtist.ArtistImageURL))
+            {
+                var newImage = new Image() { 
+                    Path = new Uri(oldArtist.ArtistImageURL),
+                    ImageType = ImageType.Websource
+                    
+                    
+                };
+                newImages.Add(newImage);
+                
             }
             List<Festival> newFestivals = new List<Festival>();
             newFestivals.Add(newEvent.Festival);
@@ -79,7 +91,8 @@ namespace Tarmac.Shared.Migrator
                 },
                 Links = links,
                 ActType = ActType.Default,
-                Festivals = newFestivals
+                Festivals = newFestivals,
+                Images = newImages
             };
             newEvent.Act = newAct;
             return newEvent;

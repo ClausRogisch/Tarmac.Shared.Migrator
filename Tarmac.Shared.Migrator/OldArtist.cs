@@ -20,5 +20,6 @@ namespace Tarmac.Shared.Migrator
         public DateTime EntryDate { get; set; }
         public string Collective { get; set; }
         public string StageName { get; set; }
+        public string ArtistImageURL { get; set; }
     }
 }
